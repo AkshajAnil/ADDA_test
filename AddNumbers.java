@@ -5,12 +5,12 @@ public class AddNumbers {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt user to enter the first number
-        System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
+        //System.out.print("Enter the first number: ");
+        double num1 = 6.89;
 
         // Prompt user to enter the second number
-        System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
+        //System.out.print("Enter the second number: ");
+        double num2 = 5.23;
 
         // Close the scanner to prevent resource leak
         scanner.close();
